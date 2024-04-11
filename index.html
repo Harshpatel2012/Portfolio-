@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>My Porfolio</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="index.css"
+/>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <body>
+    <nav class="navBarWrapper">
+    <h1>My Portfolio</h1>
+
+    <div>
+      <ul class="navItems">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutMe">About</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+    <section
+      class="mainSection"
+      id="home"
+    >
+    <div class="landingpageintrosection" data-aos="fade-right">
+    <div >
+      <p>Hii I'm </p>
+      <h1>Harsh <span class="red">Patel</span></h1>
+      <p>Web Developer</p>
+    </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit enim adipisci, iure eligendi maiores sapiente aspernatur itaque modi incidunt distinctio.</p>
+    </div>
+
+    <div>
+      <img class="lamdingimage" src="https://images.unsplash.com/photo-1518644730709-0835105d9daa?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portfolioimage" style="width: 100%; height: 100%; object-fit: cover;"/>
+    </div>
+
+
+  </section>
+    <section
+      class="aboutMeSection"
+      id="aboutMe">
+     
+        <h2 class="text-2x text-center">About<span class="red">Me</span></h2>
+
+      <div class="landingabout" data-aos="fade-left">
+      <div>
+        <h3>Who Am <span class="red">i</span>?</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Ratione fuga animi deleniti nulla. Totam facilis error itaque inventore earum. Eum!</p>
+      </div>
+        <img class="aboutimageone" style="height: 40vh;width:40vh;border-radius:40px;" src="Screenshot 2024-04-09 164001.png" alt="aboutimage1">
+      </div>
+
+      <div class="landingabout" data-aos="fade-left">
+        <div>
+          <h3>Skills<span class="red"> i</span> do ?</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Ratione fuga animi deleniti nulla. Totam facilis error itaque inventore earum. Eum!</p>
+        </div>
+          <img class="aboutimageone" style="height: 40vh;width:40vh;border-radius:40px;" src="download.png" alt="aboutimage1">
+        </div>
+  </section>
+   <br>
+    <section
+      class="contactSection"
+      id="contact"
+      data-aos="fade-right">
+    
+      <div class="contactsectionwrapper">
+        <h3 class="text-2x text-center"><span class="red">Contact </span>Me</h3>
+           <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="message"></textarea>
+            <button>SUBMIT</button>
+          </form>
+         </div>
+    </section>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

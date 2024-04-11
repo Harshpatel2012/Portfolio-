@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .red{
+    color: red;
+  }
+  body{
+    background-color: rgb(30,30,33);
+  }
+  nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  li{
+    list-style-type: none;
+    font-size: 20px;
+  }
+  li:hover{
+    text-decoration: underline;
+  }
+  ul{
+    display: flex;
+    gap: 70px;
+    margin-right:40px;
+  }
+  section{
+    min-height: 100vh;
+    color: white;
+  }
+  .mainSection{
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+  }
+  h1{
+    font-size: 3em;
+  }
+  p{
+    font-size: 1em;
+  }
+  .mainSection >div:nth-child(1){
+    padding: 90px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .landingpageintrosection{
+      display: flex;
+      justify-content: center;
+      align-items: start;
+  }
+  .lamdingimage{
+   border-bottom-left-radius: 20rem;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border: 2px solid red;
+   border-top: none;
+   border-right: none;
+  }
+  .landingabout{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  .text-2x{
+    font-size: 3rem;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .aboutimageone{
+    aspect-ratio: 1/1;
+  }
+  .aboutMeSection{
+    padding: 0 15vw;
+  }
+  .landingabout h3{
+    font-size: 2rem;
+  }
+  .landingabout:nth-child(even){
+    flex-direction: row-reverse;
+  }
+  
+  .contactsectionwrapper{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 0px 10px 10pc 0px;
+    box-shadow: 1px 1px red;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  input,textarea,button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+  button{
+    background-color: rgb(235, 38, 38);
+  }
+  .contactSection{
+    justify-content: start;
+    align-items: center;
+  }
